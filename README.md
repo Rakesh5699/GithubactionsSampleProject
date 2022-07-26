@@ -5,7 +5,7 @@ This is a sample project to work with github actions. In this my app is responsi
 <br>
 
 # Code 
-## Dockerfile 
+#### Dockerfile 
 
 ``` 
 FROM python:3.7
@@ -16,7 +16,8 @@ EXPOSE $PORT
 CMD gunicorn --workers=4 --bind 0.0.0.0:$PORT app:app
 ```
 <br>
-## main.yaml
+
+#### main.yaml
 
 ``` 
 # Your workflow name.
@@ -80,16 +81,18 @@ jobs:
 ### ⬆ IMPORTANT PART ⬆ ###
 ```
 
-## Installing 
+### Installing 
+
 ``` 
 pip install -r requirements.txt
 
 ```
-<br>
-Heroku app link :https://githubactionssample.herokuapp.com/
+<br><br>
+**Heroku app link** :https://githubactionssample.herokuapp.com/
 
 <br>
-## Conclusion
+
+#### Conclusion
 This is just sample project for github action. 
 
 
